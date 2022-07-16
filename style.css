@@ -1,0 +1,131 @@
+body {
+    font-family: 'Gulzar', serif;
+    font-family: 'Mulish', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto Slab', serif;
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+.top-sec{
+    color: white;
+    background-image: url(images/donation1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    
+}
+
+
+
+.top-div-1{
+    text-align: center;
+    margin: 40px;
+    padding-left: 200px;
+    padding-right: 200px;
+    
+}
+
+.top-button{
+
+    color: white;
+    text-decoration:none;
+    background-color: tomato;
+    padding: 10px;
+    border-radius: 4px;
+    
+}
+
+.amount{
+    display: flex;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.am-child{
+    background-color: rgb(230, 230, 230);
+    margin: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 5px;
+}
+
+#selected{
+    background-color: rgb(252, 188, 188);
+    border-style: solid;
+    border-color: red;
+    
+}
+
+#enter-amount{
+    text-align: center;
+    font-size: 15px;
+    width: 80%;
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+.Donation-plan{
+    display: flex;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.Donation-plan img{
+    height: 50px;
+}
+
+.Dplan-div{
+    padding: 30px 30px 20px 20px;
+    margin: 5px;
+}
+
+.mid-flex-div{
+    display: flex;
+    margin-left: 10%;
+    margin-right: 10%;
+    
+}
+
+.mid-flex-div img{
+    height: 350px;
+    
+}
+
+.mid-flex-div-child{
+    padding: 0px 60px;
+}
+
+.subscribe{
+    
+    /* margin-left: 30%; */
+    background-color: antiquewhite;
+    height: 150px;
+    width: 800px;
+}
+
+#sub-button{
+    text-decoration: none;
+    background-color: tomato;
+    
+}
+
+.form{
+    display: flex;
+    margin-left: 40%;
+    padding-top: 50px;
+}
+
+#input{
+    
+    /* width: 200px;
+    height: 20px; */
+}
+
+.footer{
+    height: 150px;
+    background-color: black;
+    color:white;
+}
